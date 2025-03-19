@@ -1,3 +1,5 @@
+# LISIANA T
+# 212222240053
 # Cryptography---19CS412-classical-techqniques
 # Caeser Cipher
 Caeser Cipher using with different key values
@@ -122,6 +124,11 @@ To decrypt, use the INVERSE (opposite) of the last 3 rules, and the 1st as-is (d
 
 
 ## PROGRAM:
+
+NAME:LISIANA T
+
+REG NO:212222240053
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -278,9 +285,10 @@ printf("Cipher text: %s\n", str);
 return 0;
 }
 
+```
 ## OUTPUT:
-Output:
-Key text: Monarchy Plain text: instruments Cipher text: gatlmzclrqtx
+![image](https://github.com/user-attachments/assets/f4cc5686-b8b5-42a6-b8d7-0cd367920430)
+
 
 ## RESULT:
 The program is executed successfully
@@ -315,7 +323,10 @@ The cipher can, be adapted to an alphabet with any number of letters. All arithm
 
 
 ## PROGRAM:
-PROGRAM:
+NAME:LISIANA T
+
+REG NO:212222240053
+```
 #include <stdio.h> #include <string.h>
 int keymat[3][3] = { { 1, 2, 1 }, { 2, 3, 2 }, { 2, 2, 1 } };
 int invkeymat[3][3] = { { -1, 0, 1 }, { 2, -1, 0 }, { -2, 2, -1 } }; char key[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -361,14 +372,13 @@ strcat(dec, decode(a, b, c));
 printf("Decoded message : %s\n", dec); return 0;
 }
 
-
+```
 ## OUTPUT:
-OUTPUT:
-Simulating Hill Cipher
+![image](https://github.com/user-attachments/assets/3170138f-8c7d-4b6c-9b0f-ffc46c555eeb)
 
 
-Input Message : SecurityLaboratory
-Padded Message : SECURITYLABORATORY Encrypted Message : EACSDKLCAEFQDUKSXU Decrypted Message : SECURITYLABORATORY
+
+
 ## RESULT:
 The program is executed successfully
 
